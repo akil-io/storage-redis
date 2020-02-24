@@ -16,7 +16,7 @@ class RedisDB {
 		        db: 0
 	        },
 	        prefix: 'db',
-	        methods: ['get','set','del','keys','hmset','hgetall','lpush','llen','lindex','lrem','lrange']
+	        methods: ['get','set','setex','del','keys','hmset','hgetall','lpush','llen','lindex','lrem','lrange','expire']
 	    }, settings);
 	    this.db = null;
 	    this.client = null;

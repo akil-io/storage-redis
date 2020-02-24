@@ -1,6 +1,6 @@
 {
   "name": "@akilio/storage-redis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The simplest ever Redis object relation mapper and data access library",
   "main": "index.js",
   "engines": {
