@@ -32,7 +32,7 @@ class RedisDB {
 		    	this.db = client;
 		    	this.client = this.settings.methods.reduce((a, c) => Object.assign(a, {
 		    		[c]: promisify(this.db[c]).bind(this.db)
-		    	}))
+		    	}), {});
 		        resolve(this);
 		    });
 		});
